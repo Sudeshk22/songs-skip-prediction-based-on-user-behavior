@@ -1043,16 +1043,7 @@ print("Confusion matrix:\n", cm)
 disp1 = ConfusionMatrixDisplay(confusion_matrix=cm,display_labels=lr.classes_)
 disp1.plot(cmap=plt.cm.Blues)
 
-accuracy matrix of each member
-Name                   RLR         RF            SVM          KNN
-                    train test    train test   train test    train test
-Aditi               41.90|41.29    80.58|80.18   83.08        78.9
-Kumesh                             86           (best)86.07       85.61
-Shivani                             80.36        80.48         82
-Maryam                              78.4             82            75.7
-Wahaj Ali                         (best)87.16         86.07        85.59
-Sudesh Kumari       32.21|31.92   80.53|80.16   76.57|76.23    4.51|62.62
-Hesham             (Best)82.3058%     87.06         85.87        (best)86.28
+
 # In[112]:
 
 
