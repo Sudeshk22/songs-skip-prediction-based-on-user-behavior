@@ -1049,10 +1049,10 @@ disp1.plot(cmap=plt.cm.Blues)
 
 # save the model to disk 
 import pickle
-filename = 'random_forest_Model.pkl' 
-pickle.dump(model, open(filename, 'wb'))
+filename = 'KNN_Model.pkl' 
+pickle.dump(knn, open(filename, 'wb'))
 
-filename = 'random_forest_Model.pkl' 
+filename = 'KNN_Model.pkl' 
 loaded_model =    pickle.load(open(filename, 'rb'))
 
 
