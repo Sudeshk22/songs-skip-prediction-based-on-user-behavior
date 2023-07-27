@@ -68,8 +68,7 @@ Following algorithms are used to generate prdictions model
 - The algorithm Support vector machine is used  and trained on the data which give accuracy of 50.052% for training and for testing it give 49.779% accuracy. In this  test data size of 20% is used.
 - The algorithm K nearest neigbhour is used  and trained on the data which give accuracy of 87.569% for training and for testing it give 86.269% accuracy. In this 10 number of neighbour test data size of 20% is used.
 - The algorithm Regularised logistic regression is used  and trained on the data which give accuracy of 82.3058% for training. In this  test data size of 20% is used.
-
-After getting the best model for the training and testing algorithm we advanced for deployment and used KNN for deployment and used pickle library for exporting the model for flask Application and then after getting required user interface we advanced for AWS.
+- The accuracy after taking care for the both taing and testing datsets, KNN is our best model.
 
 
 ### Implementation
